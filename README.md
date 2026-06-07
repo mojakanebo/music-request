@@ -1,59 +1,45 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Proyek Pemrograman Web - Request Lagu
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Aplikasi pengelolaan permintaan lagu berbasis web untuk lingkungan sekolah.
 
-## About Laravel
+## 1. Deskripsi Proyek
+Aplikasi **Request Lagu** adalah platform yang memungkinkan pengguna (siswa) untuk mengajukan lagu yang ingin diputar di area sekolah. Sistem ini membantu petugas (admin) untuk melihat daftar permintaan secara teratur dan mengelola antrean lagu secara digital.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 2. Fitur Utama
+- **Multi-Role Authentication**: Login sebagai Admin atau Siswa.
+- **Google Login**: Integrasi OAuth untuk kemudahan login menggunakan akun Google.
+- **Request Form**: Form input lagu yang detail (Nama Lagu, Artis, Bagian Lirik, dan Jam Putar).
+- **Admin Management**: Panel khusus admin untuk memantau dan menghapus request yang sudah diputar.
+- **Modern UI**: Antarmuka bersih dan responsif menggunakan Tailwind CSS.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 3. Tech Stack
+- **Framework**: Laravel 12
+- **Language**: PHP 8.2+
+- **Frontend**: Tailwind CSS 4 & Vite
+- **Database**: MySQL / PostgreSQL
+- **Authentication**: Laravel Socialite
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 4. Video Demo
+[Klik di sini untuk melihat Video Demo](MASUKKAN_LINK_VIDEO_YOUTUBE_ATAU_DRIVE_DISINI)
 
-## Learning Laravel
+## 5. Screenshot Website
+Berikut adalah tampilan dari aplikasi:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+### Halaman Login
+![Login](./screenshots/login.png)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Dashboard Siswa (Form Request)
+![Dashboard Siswa](./screenshots/dashboard_siswa.png)
 
-## Laravel Sponsors
+### Dashboard Admin (List Request)
+![Dashboard Admin](./screenshots/dashboard_admin.png)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## 6. Nama Kelompok dan Anggota
+- **Nama Kelompok**: [NAMA KELOMPOK KAMU]
+- **Anggota**:
+  1. [NAMA LENGKAP ANGGOTA 1]
+  2. [NAMA LENGKAP ANGGOTA 2]
+  3. [NAMA LENGKAP ANGGOTA 3]
 
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+*Proyek ini dibuat untuk memenuhi tugas mata pelajaran Pemrograman Web.*

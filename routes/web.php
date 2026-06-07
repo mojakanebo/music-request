@@ -31,3 +31,8 @@ Route::middleware(['auth', 'role:siswa'])->prefix('siswa')->group(function () {
     Route::get('/dashboard', [SiswaController::class, 'index'])->name('siswa.dashboard');
     Route::post('/request', [SiswaController::class, 'store'])->name('siswa.request.store');
 });
+
+Route::get('/migrate-db', function () {
+    \Illuminate\Support\Facades\Artisan::call('migrate:fresh', ['--force' => true]);
+    return "Database berhasil dimigrasi!";
+});

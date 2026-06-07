@@ -27,6 +27,6 @@ class AdminController extends Controller
         $lagu = RequestLagu::findOrFail($id);
         $lagu->delete();
 
-        return redirect()->back()->with('success', 'Request berhasil dihapus');
+        return redirect()->route('admin.dashboard')->with('success', 'Request berhasil dihapus');
     }
 }

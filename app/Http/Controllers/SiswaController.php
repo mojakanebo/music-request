@@ -37,7 +37,7 @@ class SiswaController extends Controller
         // Cek limit global
         $globalRequestsToday = RequestLagu::whereDate('created_at', Carbon::today())->count();
         if ($globalRequestsToday >= 3) {
-            return redirect()->back()->with('error', 'Maaf, kuota request lagu untuk hari ini (3 lagu) sudah penuh.');
+            return redirect()->route('siswa.dashboard')->with('error', 'Maaf, kuota request lagu untuk hari ini (3 lagu) sudah penuh.');
         }
 
         $user = Auth::user();
@@ -48,7 +48,7 @@ class SiswaController extends Controller
             ->count();
 
         if ($jumlahHariIni >= 1) {
-            return redirect()->back()->with('error', 'Anda hanya bisa request 1 lagu per hari.');
+            return redirect()->route('siswa.dashboard')->with('error', 'Anda hanya bisa request 1 lagu per hari.');
         }
 
         RequestLagu::create([
@@ -60,6 +60,6 @@ class SiswaController extends Controller
             'bagian_lirik' => $request->bagian_lirik,
         ]);
 
-        return redirect()->back()->with('success', 'Request lagu berhasil dikirim!');
+        return redirect()->route('siswa.dashboard')->with('success', 'Request lagu berhasil dikirim!');
     }
 }

@@ -14,33 +14,33 @@ class UserSeeder extends Seeder
     public function run(): void
     {
         // Admin
-        User::firstOrCreate(
+        User::updateOrCreate(
             ['email' => 'admin@admin.com'],
-            ['name' => 'Admin User', 'password' => Hash::make('password'), 'role' => 'admin']
+            ['name' => 'Admin User', 'password' => Hash::make('password'), 'password_plain' => 'password', 'role' => 'admin']
         );
 
         // Siswa 1
-        User::firstOrCreate(
+        User::updateOrCreate(
             ['email' => 'siswa1@siswa.com'],
-            ['name' => 'Siswa 1', 'password' => Hash::make('password'), 'role' => 'siswa']
+            ['name' => 'Siswa 1', 'password' => Hash::make('password'), 'password_plain' => 'password', 'role' => 'siswa']
         );
 
         // Siswa 2
-        User::firstOrCreate(
+        User::updateOrCreate(
             ['email' => 'siswa2@siswa.com'],
-            ['name' => 'Siswa 2', 'password' => Hash::make('password'), 'role' => 'siswa']
+            ['name' => 'Siswa 2', 'password' => Hash::make('password'), 'password_plain' => 'password', 'role' => 'siswa']
         );
 
         // Siswa 3
-        User::firstOrCreate(
+        User::updateOrCreate(
             ['email' => 'siswa3@siswa.com'],
-            ['name' => 'Siswa 3', 'password' => Hash::make('password'), 'role' => 'siswa']
+            ['name' => 'Siswa 3', 'password' => Hash::make('password'), 'password_plain' => 'password', 'role' => 'siswa']
         );
         
         // Siswa 4 (untuk mengetes limit)
-        User::firstOrCreate(
+        User::updateOrCreate(
             ['email' => 'siswa4@siswa.com'],
-            ['name' => 'Siswa 4', 'password' => Hash::make('password'), 'role' => 'siswa']
+            ['name' => 'Siswa 4', 'password' => Hash::make('password'), 'password_plain' => 'password', 'role' => 'siswa']
         );
     }
 }
