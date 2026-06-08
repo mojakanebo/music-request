@@ -78,19 +78,19 @@ https://drive.google.com/file/d/ID_VIDEO/view
 
 ### Halaman Login
 
-![Halaman Login](README/screenshots/admin.png)
+![Halaman Login](admin.png)
 
 ### Dashboard Admin
 
-![Dashboard Admin](README/screenshots/dasboard.png)
+![Dashboard Admin](dasboard.png)
 
 ### Dashboard Pengguna (User 1)
 
-![Dashboard User 1](README/screenshots/user1.png)
+![Dashboard User 1](user1.png)
 
 ### Dashboard Pengguna (User 4)
 
-![Dashboard User 4](README/screenshots/user4.png)
+![Dashboard User 4](user4.png)
 
 ---
 
