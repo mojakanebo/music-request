@@ -66,11 +66,7 @@ Aplikasi ini dikembangkan untuk mempermudah pengelolaan request lagu secara ters
 
 Link Video Demonstrasi:
 
-[Tambahkan Link Google Drive di Sini]
-
-Contoh:
-
-https://drive.google.com/file/d/ID_VIDEO/view
+[https://drive.google.com/drive/folders/1xWXV64UW6WW-5nEC3hvbdrlIGAjb_9ov?usp=sharing]
 
 ---
 
@@ -171,14 +167,13 @@ http://127.0.0.1:8000
 
 ## Kelompok
 
-Nama Kelompok: [Isi Nama Kelompok]
+KELOMPOK 4
 
 ### Anggota
 
-1. [Nama Anggota 1]
-2. [Nama Anggota 2]
-3. [Nama Anggota 3]
-4. [Nama Anggota 4]
+1. [Moza Nanda w]
+2. [M Faaris Adzikra]
+3. [Rasya Arshavin L]
 
 ---
 
