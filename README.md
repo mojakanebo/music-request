@@ -1,3 +1,5 @@
+<img width="1600" height="942" alt="admin" src="https://github.com/user-attachments/assets/4cb21608-7737-4083-a924-e98539420898" />
+<img width="1600" height="942" alt="admin" src="https://github.com/user-attachments/assets/715df583-92f2-4f00-851f-de9f8b1a1582" />
 # Music Request Website
 
 ## Deskripsi Proyek
@@ -78,7 +80,8 @@ https://drive.google.com/file/d/ID_VIDEO/view
 
 ### Halaman Login
 
-![Halaman Login](admin.png)
+![Halaman Login]<img width="1600" height="942" alt="admin" src="https://github.com/user-attachments/assets/7815e0a7-2fad-40f3-94fd-54a72cfeffa9" />
+g)
 
 ### Dashboard Admin
 
