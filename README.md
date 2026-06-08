@@ -82,7 +82,7 @@ https://drive.google.com/file/d/ID_VIDEO/view
 
 ### Dashboard Admin
 
-![Dashboard Admin](README/screenshots/dashboard.png)
+![Dashboard Admin](README/screenshots/dasboard.png)
 
 ### Dashboard Pengguna (User 1)
 
