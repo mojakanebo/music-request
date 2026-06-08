@@ -1,45 +1,187 @@
-# Proyek Pemrograman Web - Request Lagu
+# Music Request Website
 
-Aplikasi pengelolaan permintaan lagu berbasis web untuk lingkungan sekolah.
+## Deskripsi Proyek
 
-## 1. Deskripsi Proyek
-Aplikasi **Request Lagu** adalah platform yang memungkinkan pengguna (siswa) untuk mengajukan lagu yang ingin diputar di area sekolah. Sistem ini membantu petugas (admin) untuk melihat daftar permintaan secara teratur dan mengelola antrean lagu secara digital.
+Music Request Website merupakan aplikasi berbasis web yang dirancang untuk memfasilitasi proses pengajuan permintaan lagu oleh siswa. Sistem memungkinkan pengguna untuk mencari lagu berdasarkan judul maupun nama artis, mengirimkan permintaan lagu, serta melihat riwayat permintaan yang telah dilakukan.
 
-## 2. Fitur Utama
-- **Multi-Role Authentication**: Login sebagai Admin atau Siswa.
-- **Google Login**: Integrasi OAuth untuk kemudahan login menggunakan akun Google.
-- **Request Form**: Form input lagu yang detail (Nama Lagu, Artis, Bagian Lirik, dan Jam Putar).
-- **Admin Management**: Panel khusus admin untuk memantau dan menghapus request yang sudah diputar.
-- **Modern UI**: Antarmuka bersih dan responsif menggunakan Tailwind CSS.
-
-## 3. Tech Stack
-- **Framework**: Laravel 12
-- **Language**: PHP 8.2+
-- **Frontend**: Tailwind CSS 4 & Vite
-- **Database**: MySQL / PostgreSQL
-- **Authentication**: Laravel Socialite
-
-## 4. Video Demo
-[Klik di sini untuk melihat Video Demo](MASUKKAN_LINK_VIDEO_YOUTUBE_ATAU_DRIVE_DISINI)
-
-## 5. Screenshot Website
-Berikut adalah tampilan dari aplikasi:
-
-### Halaman Login
-![Login](./screenshots/login.png)
-
-### Dashboard Siswa (Form Request)
-![Dashboard Siswa](./screenshots/dashboard_siswa.png)
-
-### Dashboard Admin (List Request)
-![Dashboard Admin](./screenshots/dashboard_admin.png)
-
-## 6. Nama Kelompok dan Anggota
-- **Nama Kelompok**: [NAMA KELOMPOK KAMU]
-- **Anggota**:
-  1. [NAMA LENGKAP ANGGOTA 1]
-  2. [NAMA LENGKAP ANGGOTA 2]
-  3. [NAMA LENGKAP ANGGOTA 3]
+Aplikasi ini dikembangkan untuk mempermudah pengelolaan request lagu secara terstruktur dan memberikan pengalaman pengguna yang lebih efisien dalam proses pengajuan lagu.
 
 ---
-*Proyek ini dibuat untuk memenuhi tugas mata pelajaran Pemrograman Web.*
+
+## Fitur Utama
+
+### Autentikasi Pengguna
+
+* Login pengguna
+* Logout pengguna
+
+### Manajemen Request Lagu
+
+* Pencarian lagu berdasarkan judul atau artis
+* Menampilkan daftar lagu yang tersedia
+* Pengiriman request lagu
+* Pembatasan jumlah request harian
+
+### Riwayat Request
+
+* Menampilkan daftar lagu yang telah direquest
+* Menampilkan informasi request yang telah dikirim
+
+### Dashboard Pengguna
+
+* Menampilkan informasi request yang telah digunakan
+* Menampilkan batas request harian
+* Menyediakan antarmuka yang responsif dan mudah digunakan
+
+---
+
+## Teknologi yang Digunakan
+
+### Frontend
+
+* HTML5
+* CSS3
+* Bootstrap
+* JavaScript
+
+### Backend
+
+* PHP
+* Laravel Framework
+
+### Database
+
+* MySQL
+
+### Tools Pendukung
+
+* Visual Studio Code
+* Git
+* GitHub
+* XAMPP
+
+---
+
+## Dokumentasi Video
+
+Link Video Demonstrasi:
+
+[Tambahkan Link Google Drive di Sini]
+
+Contoh:
+
+https://drive.google.com/file/d/ID_VIDEO/view
+
+---
+
+## Dokumentasi Sistem
+
+### Halaman Login
+
+![Halaman Login](README/screenshots/admin.png)
+
+### Dashboard Admin
+
+![Dashboard Admin](README/screenshots/dasboard.png)
+
+### Dashboard Pengguna (User 1)
+
+![Dashboard User 1](README/screenshots/user1.png)
+
+### Dashboard Pengguna (User 4)
+
+![Dashboard User 4](README/screenshots/user4.png)
+
+---
+
+## Struktur Fitur Sistem
+
+* Login Pengguna
+* Dashboard Admin
+* Dashboard Pengguna
+* Pencarian Lagu
+* Pengajuan Request Lagu
+* Riwayat Request
+* Pembatasan Request Harian
+* Logout
+
+---
+
+## Cara Menjalankan Proyek
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/mojakanebo/music-request.git
+```
+
+### 2. Masuk ke Direktori Proyek
+
+```bash
+cd music-request
+```
+
+### 3. Install Dependency
+
+```bash
+composer install
+```
+
+### 4. Salin File Environment
+
+```bash
+copy .env.example .env
+```
+
+### 5. Generate Application Key
+
+```bash
+php artisan key:generate
+```
+
+### 6. Konfigurasi Database
+
+Sesuaikan konfigurasi database pada file `.env`.
+
+```env
+DB_DATABASE=music_request
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+### 7. Jalankan Migrasi Database
+
+```bash
+php artisan migrate
+```
+
+### 8. Menjalankan Server
+
+```bash
+php artisan serve
+```
+
+### 9. Akses Aplikasi
+
+```text
+http://127.0.0.1:8000
+```
+
+---
+
+## Kelompok
+
+Nama Kelompok: [Isi Nama Kelompok]
+
+### Anggota
+
+1. [Nama Anggota 1]
+2. [Nama Anggota 2]
+3. [Nama Anggota 3]
+4. [Nama Anggota 4]
+
+---
+
+## Repository
+
+https://github.com/mojakanebo/music-request
